@@ -35,6 +35,7 @@ something.
             return 1
 
 ```
+
 The above can be shortened:
 
 ```
@@ -43,6 +44,7 @@ class MyClass(object):
     def __init__(self, a, b, c):
         self.readonly = a
 ```
+
 Once assigned in the constructor, you can't change it.
 
 Usage:

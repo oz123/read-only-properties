@@ -67,6 +67,7 @@ class Foo:
 
 Moving from @property:
 ----------------------
+
 If you have a class with many attributes that you want to
 refactor to properties:
 
@@ -76,7 +77,7 @@ class AClassWithManyAttributes:
         self.a = a
         self.b = b
         self.c = c
-```             ....
+```
 
 The above class would be very verbose (an IDE will save you a lot of
 typing, but it won't make the code shorter:
